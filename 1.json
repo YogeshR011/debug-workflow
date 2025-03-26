@@ -1,0 +1,84 @@
+{
+  "id": 39425226560,
+  "run_id": 14078263026,
+  "workflow_name": "Debugging Demo",
+  "head_branch": "main",
+  "run_url": "https://api.github.com/repos/YogeshR011/debug-workflow/actions/runs/14078263026",
+  "run_attempt": 1,
+  "node_id": "CR_kwDOOO6S7M8AAAAJLe03QA",
+  "head_sha": "955c4e32f6bcce8caf30bf61b7dd191b93afc4b0",
+  "url": "https://api.github.com/repos/YogeshR011/debug-workflow/actions/jobs/39425226560",
+  "html_url": "https://github.com/YogeshR011/debug-workflow/actions/runs/14078263026/job/39425226560",
+  "status": "completed",
+  "conclusion": "failure",
+  "created_at": "2025-03-26T08:02:40Z",
+  "started_at": "2025-03-26T08:02:45Z",
+  "completed_at": "2025-03-26T08:02:50Z",
+  "name": "debug_job",
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 1,
+      "started_at": "2025-03-26T08:02:46Z",
+      "completed_at": "2025-03-26T08:02:46Z"
+    },
+    {
+      "name": "Step 1 - Checkout Repo",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 2,
+      "started_at": "2025-03-26T08:02:46Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    },
+    {
+      "name": "Step 2 - Set USER_1 as USERNAME",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 3,
+      "started_at": "2025-03-26T08:02:47Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    },
+    {
+      "name": "Step 3 - Printing USERNAME",
+      "status": "completed",
+      "conclusion": "failure",
+      "number": 4,
+      "started_at": "2025-03-26T08:02:47Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    },
+    {
+      "name": "Step 4 - Printing USER_2",
+      "status": "completed",
+      "conclusion": "skipped",
+      "number": 5,
+      "started_at": "2025-03-26T08:02:47Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    },
+    {
+      "name": "Post Step 1 - Checkout Repo",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 10,
+      "started_at": "2025-03-26T08:02:47Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 11,
+      "started_at": "2025-03-26T08:02:47Z",
+      "completed_at": "2025-03-26T08:02:47Z"
+    }
+  ],
+  "check_run_url": "https://api.github.com/repos/YogeshR011/debug-workflow/check-runs/39425226560",
+  "labels": [
+    "ubuntu-latest"
+  ],
+  "runner_id": 1000000050,
+  "runner_name": "GitHub Actions",
+  "runner_group_id": 0,
+  "runner_group_name": ""
+}
